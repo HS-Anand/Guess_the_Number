@@ -1,5 +1,7 @@
-from replit import clear
+import os
 import random
+
+clear = lambda: os.system('clear')
 
 print("Welcome to Guess the Number\n")
 
@@ -34,7 +36,7 @@ while not end:
   elif not win:
     print("You ran out of guesses\nYou lost\n")
   print(f"Number was {num}")
-  
+
   again = input("\nPlay again??\nYes or No??  ").lower()
   clear()
   if again == "yes":
