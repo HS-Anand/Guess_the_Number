@@ -4,8 +4,11 @@ Welcome to the "Guess the Number" Game! This is a simple game where the player t
 Features
 
 Random Number Generation: The game generates a random number within a specified range.
+
 User Input: The player enters their guesses via the command line.
+
 Feedback: The game provides feedback whether the guessed number is too high, too low, or correct.
+
 Customizable Range: The range of numbers can be easily modified in the code.
 
 How to Play
